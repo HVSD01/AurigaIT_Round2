@@ -223,7 +223,8 @@ const DashboardPage = () => {
   const handleOpenOutbox = async () => {
     try {
       const res = await axiosClient.get('/outbox');
-      setOutboxEntries(res.data.data || []);
+      const entries = Array.isArray(res.data) ? res.data : (res.data.data || []);
+      setOutboxEntries(entries);
       setShowOutboxModal(true);
     } catch (err) {
       alert('Failed to load outbox entries');

@@ -47,11 +47,19 @@ const appointmentRoutes = require('./routes/appointmentRoutes');
 const clockRoutes = require('./routes/clockRoutes');
 
 app.use('/api/auth', authRoutes);
+app.use('/auth', authRoutes);
+
 app.use('/api/doctors', doctorRoutes);
+app.use('/doctors', doctorRoutes);
+
 app.use('/api/patients', patientRoutes);
+app.use('/patients', patientRoutes);
+
 app.use('/api/appointments', appointmentRoutes);
+app.use('/appointments', appointmentRoutes);
+
 app.use('/api', clockRoutes);
-app.use('/', clockRoutes); // Support /clock and /outbox directly as well
+app.use('/', clockRoutes);
 
 // Catch 404
 app.use(notFoundHandler);
