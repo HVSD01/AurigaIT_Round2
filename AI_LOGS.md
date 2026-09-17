@@ -1,6 +1,6 @@
-#Claude Chats :--
+# Claude Chats :--
 
-##Prompt-
+## Prompt-
 
 Hi Vineet
 
@@ -74,7 +74,7 @@ Build the front desk something so no doctor is ever double-booked and late cance
 now tell me what should i do since i have only 1 hour and 45 min time limit to diliver this thing and they are tell us to do all the working in the github codespace using the AI Tools since this round is named as AI Assist round
 
 
-##AI Reply-
+## AI Reply-
 Congrats on clearing Round 1! Let me break down what this round actually wants, then give you a tight plan for 1h45m.
 
 **What's happening:**
@@ -94,11 +94,11 @@ Here's how I'd spend the 105 minutes:A few things worth flagging:
 Want me to also sketch out the actual overlap-check SQL/logic or a quick Express/Flask skeleton you can paste in to save setup time?
 
 
-##Prompt-
+## Prompt-
 since i don't use the github codespacae before so tell the step by step processs of it and also how to use the AI in teh codespace and how i copy and paste teh AI logs in it
 
 
-##AI Reply-
+## AI Reply-
 A couple of practical tips on top of that:
 
 - **Free tier limits:** GitHub gives free accounts a monthly quota of Codespaces usage (compute + storage hours). It's generous enough for a 2.5-hour session, so you're fine — just don't leave the Codespace idle/running for hours before or after.
